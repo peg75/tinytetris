@@ -13,10 +13,9 @@ This one is almost identical to `tinytetris.cpp`, but not minified, and with som
 comments to make it easier to read (but it's still tricky to read in certain parts).
 
 ### How to install curses?
-Debian/Ubuntu/Mint: sudo apt install libncurses5-dev libncursesw5-dev
-Arch/Manjaro/msys2: sudo pacman -S ncurses
-RHEL/CentOS: sudo yum install ncurses-devel
-Fedora: sudo dnf install ncurses-devel
+Debian users install the packages libncurses5-dev libncursesw5-dev.
+Pacman and msys2 users install the package ncurses.
+Yum and Dnf users install the package ncurses-devel.
 
 ### How to compile?
 Linux: Install gcc, g++, make, and curses. then run the 'make' command in the directory you copied this repo to.
